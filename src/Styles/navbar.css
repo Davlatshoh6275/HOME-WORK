@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Miltonian&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.textDec .link {
+  text-decoration: none;
+}
+
+.display {
+  height: 100vh;
+}
+
+.mainBack .navBar .navbar {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.navBar {
+  position: fixed;
+  backdrop-filter: blur(20px);
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 0 90px;
+}
+
+.links {
+  overflow: hidden;
+  color: #fff;
+  z-index: 10;
+}
+
+.links ul li {
+  margin-left: 25px;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.mainBack .navBar .navbar .links ul .button {
+  position: relative;
+  left: 50px;
+  top: -7px;
+}
+
+.dropdown {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  outline: none;
+}
+
+.mainBack .navBar .navbar .links .navbarBoxFlex .disNoneOption {
+  margin-top: 15px;
+  margin-right: 30px;
+}
+
+span {
+  font-size: 40px;
+}
+
+.dark-mode {
+  background-color: #131313;
+  color: #fff;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #000;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.mainBack {
+  background-color: #000;
+}
+.menu {
+  display: none;
+}
+
+.Appslider {
+  position: absolute;
+  cursor: pointer;
+  height: 20px;
+  width: 60px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1b1b1b;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border: 1px solid #000;
+}
+
+.Appslider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: -12px;
+  bottom: -5px;
+  background-color: #2b2b2d;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .Appslider {
+  background-color: #fff;
+}
+
+input:focus + .Appslider {
+  box-shadow: 0 0 1px #fff;
+}
+
+input:checked + .Appslider:before {
+  -webkit-transform: translateX(45px);
+  -ms-transform: translateX(45px);
+  transform: translateX(45px);
+}
+
+/* Rounded sliders */
+.Appslider.round {
+  border-radius: 34px;
+}
+
+.Appslider.round:before {
+  border-radius: 50%;
+}
+
+.switch-checkbox {
+  padding: 10px;
+}
+
+.button {
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+  margin-right: 150px;
+  margin-top: 20px;
+}
+
+.button span {
+  font-size: 16px;
+}
+
+.button i {
+  color: #fb1b3d;
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+  right: -10px;
+}
+
+/* pages */
+
+.content {
+  width: 80px;
+  height: 100vh;
+  border: 1px solid transparent;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 20;
+}
+
+.content .item {
+  width: 10px;
+  height: 10px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  position: relative;
+  top: 35%;
+  left: 35px;
+}
+
+.content .item:first-child {
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border: 1px solid transparent;
+  position: relative;
+  left: 33px;
+}
+
+/* circlRed */
+
+.logo img:nth-child(1) {
+  width: 150px;
+  display: block;
+  background-size: cover;
+}
+
+.logo img:nth-child(2) {
+  display: none;
+}
+
+.icon {
+  width: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbarBoxFlex {
+  display: flex;
+}
+
+/* responsible */
+
+@media only screen and (max-width: 600px) {
+  .display {
+    width: 600px;
+    border: 1px solid #000;
+  }
+
+  .mainBack {
+    width: 600px;
+  }
+
+  .disNone li {
+    display: none;
+  }
+
+  .disNonecheckbox {
+    display: none;
+  }
+
+  .disNoneOption {
+    display: none;
+  }
+
+  .navBar {
+    width: 570px;
+    display: block;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .navBar .menu h1 i {
+    display: block;
+    position: fixed;
+    top: 30%;
+    left: 20px;
+    font-size: 60px;
+  }
+
+  .navBar .menu {
+    display: block;
+  }
+  .navBar .logo img:nth-child(2) {
+    display: block;
+    width: 100%;
+    margin-left: 80%;
+    margin-top: 10%;
+  }
+
+  .button span {
+    display: none;
+  }
+
+  .button i {
+    font-size: 45px;
+    position: fixed;
+    right: 20px;
+    top: 30%;
+  }
+
+  .logo img:nth-child(1) {
+    display: none;
+  }
+
+  .mainBack .display .contentPoz {
+    display: none;
+  }
+
+  .mainBack .display .contentPoz .content {
+    display: none;
+  }
+
+  .box-shadow {
+    left: 180px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .navBar {
+    width: 100%;
+    display: block;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .content {
+    display: none;
+  }
+  .mainBack .navBar .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .links .disNoneOption {
+    display: none;
+  }
+  .links .dropdown {
+    display: none;
+  }
+
+  .links .disNonecheckbox {
+    display: none;
+  }
+
+  .links .disNone li {
+    display: none;
+  }
+
+  .mainBack .navBar .navbar .logo {
+    margin: 0 auto;
+  }
+  .mainBack .navBar .navbar .logo img {
+    width: 100%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+.contactsBox {
+  height: 100%;
+  position: relative;
+}
+
+.contactsBox .contactsFlex .left h2 {
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.contactsBox .contactsFlex .left p {
+  margin-bottom: 40px;
+}
+
+.contactsFlex {
+  height: 100vh;
+  display: flex;
+}
+
+.contactsFlex .left {
+  width: 40%;
+  height: 100px;
+  padding-left: 50px;
+  position: relative;
+  margin-left: 200px;
+}
+
+.contactsFlex .left .input {
+  width: 70%;
+  height: 58px;
+  position: relative;
+  border: 1px solid #fff;
+  outline: none;
+  background: none;
+  font-size: 20px;
+  padding: 0 20px;
+  margin-bottom: 5px;
+}
+
+.contactsFlex .left .text {
+  width: 23%;
+  height: 21px;
+  z-index: 10;
+  font-size: 20px;
+  position: absolute;
+  top: 95px;
+  left: 80px;
+  padding: 0 15px;
+}
+
+.contactsFlex .left .EmailText {
+  width: 23%;
+  height: 21px;
+  z-index: 10;
+  font-size: 20px;
+  position: absolute;
+  top: 181px;
+  left: 80px;
+  padding: 0 15px;
+}
+
+.contactsFlex .left .Email {
+  width: 70%;
+  height: 58px;
+  position: relative;
+  border: 1px solid #fff;
+  outline: none;
+  background: none;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.contactsFlex .left .areaText {
+  width: 50%;
+  height: 40px;
+  z-index: 10;
+  font-size: 20px;
+  padding: 0 15px;
+  position: absolute;
+  top: 264px;
+  left: 80px;
+}
+
+.contactsFlex .left .textArea {
+  border: 1px solid #fff;
+  background: none;
+  font-size: 20px;
+  padding: 20px 20px 0 20px;
+  outline: none;
+  position: relative;
+}
+
+.contactsFlex .left .button {
+  border: 1px solid #fb1b3d;
+  width: 32%;
+  height: 50px;
+  background-color: #fb1b3d;
+  font-weight: 800;
+}
+
+.contactsBox h1 {
+  font-size: 65px;
+  letter-spacing: 4px;
+  font-weight: 800;
+  color: #fff;
+  transform: rotate(270deg);
+  position: relative;
+  top: -40px;
+  right: 40.5%;
+}
+
+/* right */
+
+.contactsBox .contactsFlex .contactRight {
+  width: 40%;
+}
+
+.contactsBox
+  .contactsFlex
+  .contactRight
+  .contactRightBoxTwo
+  .contactTwoRight
+  .leftItem
+  h2 {
+  font-size: 18px;
+}
+
+.contactsBox
+  .contactsFlex
+  .contactRight
+  .contactRightBoxTwo
+  .contactTwoRight
+  .leftItemOne
+  h2 {
+  font-size: 24px;
+}
+.contactRight {
+  margin-left: -90px;
+}
+
+.contactRight .contactRightBox {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.contactRight .contactRightBox .numbersImg img {
+  width: 22px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+}
+
+.contactRight .contactRightBox .numbersText h3 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+/* contactRightBoxTwo */
+
+.contactRightBoxTwo {
+  display: flex;
+  height: 60%;
+}
+
+.contactRightBoxTwo .contactTwoLeft {
+  margin-right: 20px;
+}
+
+.contactRightBoxTwo .contactTwoLeft .rightItem {
+  border: 1px solid #fff;
+  width: 93%;
+  height: 179px;
+  padding: 43px 28px 49px 18px;
+  margin-top: -35px;
+  margin-bottom: 60px;
+}
+
+.contactRightBoxTwo .contactTwoLeft .rightItem h2 {
+  font-size: 18px;
+}
+
+.contactRightBoxTwo .contactTwoLeft .rightItem p {
+  font-size: 20px;
+}
+
+.contactRightBoxTwo .contactTwoLeft .rightItem img {
+  width: 70%;
+  background-size: cover;
+}
+
+.contactRightBoxTwo .contactTwoRight .leftItemOne ul li a img {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.contactRightBoxTwo .contactTwoRight .leftItemOne ul li {
+  margin-right: 20px;
+}
+.contactRightBoxTwo .contactTwoRight .leftItemOne {
+  margin-bottom: 12%;
+}
+
+.contactRightBoxTwo .contactTwoRight .leftItem {
+  border: 1px solid #fff;
+  width: 100%;
+  height: 180px;
+  padding: 45px 30px;
+  margin-bottom: 60px;
+}
+
+.contactRightBoxTwo .contactTwoRight .leftItem img {
+  width: 70%;
+  background-size: cover;
+}
+
+.contactsBox .contactLineFlex {
+  display: flex;
+  transform: rotate(270deg);
+  position: absolute;
+  right: -1.7%;
+  top: 85%;
+}
+
+.contactsBox .contactLineFlex .contactLine {
+  width: 80px;
+  height: 1px;
+  border: 1px solid #fff;
+  margin-right: 23px;
+  margin-top: 8px;
+}
+
+.contactsBox .contactLineFlex h3 {
+  font-size: 13px;
+  letter-spacing: 3px;
+  width: 100%;
+}
+
+.contactsBox .contactsFlex .left .formContact {
+  width: 70%;
+}
+
+/* responsive */
+
+/* @media only screen and (max-width: 600px) {
+  .contactsBox h1 {
+    display: none;
+  }
+
+  .contactsBox .contactsFlex {
+    display: block;
+  }
+
+  .contactRight {
+    margin-top: 115%;
+    margin-left: 10px;
+  }
+
+  .contactsFlex .left {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .contactsFlex .left .input {
+    width: 90%;
+  }
+
+  .contactsFlex .left .Email {
+    width: 90%;
+  }
+
+  .contactsBox {
+    height: 1580px;
+  }
+  .contactsBox .contactsFlex .left {
+    width: 95%;
+  }
+
+  .contactRight .contactRightBox .numbersText h3 {
+    width: 350px;
+  }
+
+  .contactRightBoxTwo .contactTwoRight .leftItem {
+    margin-top: 85px;
+    margin-left: -20px;
+  }
+
+  .contactRightBoxTwo .contactTwoLeft .rightItem {
+    width: 92%;
+  }
+} */

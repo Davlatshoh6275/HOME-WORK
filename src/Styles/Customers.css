@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Customers {
+  position: relative;
+  height: 100%;
+}
+
+.Customers .CustomersCarusel .CutomersFlex {
+  padding: 20px;
+  width: 68%;
+  height: 100%;
+  display: flex;
+  margin-left: 200px;
+  justify-content: space-between;
+}
+
+.Customers .CustomersCarusel .CutomersFlex img {
+  width: 100%;
+  display: block;
+}
+
+.Customers h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  transform: rotate(270deg);
+  position: relative;
+  top: 120px;
+  right: 42%;
+}
+
+.Customers h2 {
+  font-size: 45px;
+  margin-left: 200px;
+  line-height: 55px;
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+}
+
+.Customers .CustomersCarusel .CutomersFlex .CustomersLeft img:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+.Customers .CustomersCarusel .CutomersFlex .CustomersLeft img:nth-child(2) {
+  margin-bottom: 80px;
+}
+
+.Customers .CustomersCarusel .CutomersFlex .CustomersMiddle img:nth-child(1) {
+  margin-top: 60px;
+  margin-bottom: 85px;
+}
+
+.Customers .CustomersCarusel .CutomersFlex .CustomersMiddle img:nth-child(2) {
+  margin-bottom: 120px;
+}
+
+.Customers .CustomersCarusel .CutomersFlex .CustomersRight img:nth-child(2) {
+  margin-bottom: 100px;
+}
+
+.Customers .customersLine {
+  position: absolute;
+  top: 35%;
+  right: 15%;
+  width: 1px;
+  height: 500px;
+  border: 1px solid #fff;
+}
+
+.Customers .customersLine .customersLineItem {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fb1b3d;
+  position: relative;
+  top: 20%;
+  right: 12px;
+}
+.carousel .carousel-status {
+  display: none;
+}
+
+.Customers .CustomersScrolDown {
+  display: flex;
+  transform: rotate(270deg);
+  position: absolute;
+  right: -4%;
+  bottom: 5%;
+}
+
+.Customers .CustomersScrolDown .CustomersScrollLine {
+  width: 58px;
+  height: 1px;
+  border: 1px solid #fff;
+  margin-right: -170px;
+  margin-top: 30px;
+}
+
+.Customers .CustomersScrolDown h2 {
+  font-size: 12px;
+}

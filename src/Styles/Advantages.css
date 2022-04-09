@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.advantages {
+  position: relative;
+  height: 100%;
+  margin-top: 100px;
+  margin-bottom: 145px;
+}
+
+.advantages .advantagesBox .advantagesCircl {
+  border: 1px solid #fff;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-top: 100px;
+  background-color: #fb1b3d;
+}
+
+.advantages .advantagesBox .advantagesCircl img {
+  font-size: 22px;
+  position: relative;
+  top: 33%;
+  right: -15%;
+}
+
+.advantages .advantagesBox .advantagesScrolDown {
+  display: flex;
+  transform: rotate(270deg);
+  position: absolute;
+  top: 95%;
+  right: -3.5%;
+}
+
+.advantages .advantagesBox .advantagesScrolDown .advantagesScrollLine {
+  width: 58px;
+  height: 1px;
+  border: 1px solid #fff;
+  margin-right: -170px;
+  margin-top: 28px;
+}
+
+.advantages .advantagesBox .advantagesScrolDown h2 {
+  font-size: 10px;
+}
+
+.advantages h1 {
+  font-size: 45px;
+  font-weight: 800;
+  color: #fff;
+  transform: rotate(270deg);
+  position: relative;
+  top: -34px;
+  right: 42%;
+}
+
+.advantages h2 {
+  font-size: 45px;
+  margin-left: 200px;
+  line-height: 55px;
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+}
+
+.advantages .advantagesCircl {
+  border: 1px solid #fff;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin-top: 100px;
+  background-color: #fb1b3d;
+  position: absolute;
+  right: 18%;
+  top: 25%;
+}
+
+.advantages .advantagesBox .advantagesText p {
+  width: 47%;
+  margin-left: 250px;
+}
+
+.advantages .advantagesBox .advantagesText p:nth-child(1) {
+  position: relative;
+  top: -10px;
+}
+
+.advantages .advantagesBox .advantagesText p:nth-child(2) {
+  position: relative;
+  top: 45px;
+}
+.advantages .advantagesBox .advantagesText p:nth-child(3) {
+  position: relative;
+  top: 95px;
+}
+.advantages .advantagesBox .advantagesText p:nth-child(4) {
+  position: relative;
+  top: 145px;
+}
+
+.advantages .advantagesBox .advantagesPages {
+  width: 1px;
+  border: 1px solid #fff;
+  height: 450px;
+  position: absolute;
+  left: 15%;
+}
+
+.advantages .advantagesBox .advantagesPages .pagesItemOne {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+  right: 12px;
+  top: -3px;
+}
+
+.advantages .advantagesBox .advantagesPages .pagesItemTwo {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+  right: 12px;
+  top: 20%;
+}
+
+.advantages .advantagesBox .advantagesPages .pagesItemThree {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+  right: 12px;
+  top: 40%;
+}
+
+.advantages .advantagesBox .advantagesPages .pagesItemFour {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+  right: 12px;
+  top: 60%;
+}
